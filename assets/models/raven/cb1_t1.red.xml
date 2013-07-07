@@ -1,0 +1,1476 @@
+<?xml version="1.0"?>
+<root type="EveShip">
+<name>CB1_T1</name>
+<spriteSets list="true">
+<element type="EveSpriteSet">
+<sprites list="true">
+<element type="EveSpriteSetItem">
+<blinkRate>0.3</blinkRate>
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<position json="true">[193.222, -31.67887, 93.88461, ]</position>
+<minScale>3</minScale>
+<falloff>0</falloff>
+<blinkPhase>0.1</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<blinkRate>0.3</blinkRate>
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<position json="true">[91.44978, 40.82013, 318.9584, ]</position>
+<minScale>3</minScale>
+<falloff>0</falloff>
+<blinkPhase>0.13</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<blinkRate>0.3</blinkRate>
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<position json="true">[-84.36405, 45.68437, 485.8463, ]</position>
+<minScale>3</minScale>
+<falloff>0</falloff>
+<blinkPhase>0.2</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<blinkRate>0.3</blinkRate>
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<position json="true">[-253.3596, -67.23897, 216.7843, ]</position>
+<minScale>3</minScale>
+<falloff>0</falloff>
+<blinkPhase>0.2</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<blinkRate>0.2</blinkRate>
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<position json="true">[-331.6078, -26.05753, 92.01521, ]</position>
+<minScale>3</minScale>
+<falloff>0</falloff>
+<blinkPhase>0.2</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<blinkRate>0.2</blinkRate>
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<position json="true">[-353.2734, -34.95339, 58.15831, ]</position>
+<minScale>3</minScale>
+<falloff>0</falloff>
+<blinkPhase>0.2</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<blinkRate>0.2</blinkRate>
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<position json="true">[-296.3572, 43.49159, 216.8972, ]</position>
+<minScale>3</minScale>
+<falloff>0</falloff>
+<blinkPhase>0.2</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<maxScale>7</maxScale>
+<falloff>0</falloff>
+<blinkRate>0.2</blinkRate>
+<position json="true">[-91.67777, 84.18801, 118.884, ]</position>
+<minScale>2</minScale>
+<blinkPhase>0.1</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<maxScale>7</maxScale>
+<falloff>0</falloff>
+<blinkRate>0.2</blinkRate>
+<position json="true">[-91.67777, 65.83627, 139.8236, ]</position>
+<minScale>2</minScale>
+<blinkPhase>0.12</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<color json="true">[0.3882353, 0.7176471, 1, 1, ]</color>
+<maxScale>5</maxScale>
+<falloff>0</falloff>
+<blinkRate>0.2</blinkRate>
+<position json="true">[-91.67777, 79.88338, 117.6055, ]</position>
+<minScale>1.5</minScale>
+<blinkPhase>0.4</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<color json="true">[0.6196079, 0.1529412, 0, 1, ]</color>
+<maxScale>3</maxScale>
+<falloff>0</falloff>
+<blinkRate>0</blinkRate>
+<position json="true">[-70.36485, 50.78469, 230.3236, ]</position>
+<minScale>3</minScale>
+<blinkPhase>0.1</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<color json="true">[0.6196079, 0.1529412, 0, 1, ]</color>
+<maxScale>3</maxScale>
+<falloff>0</falloff>
+<blinkRate>0</blinkRate>
+<position json="true">[-49.54998, 7.843583, 25.94008, ]</position>
+<minScale>3</minScale>
+<blinkPhase>0.1</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<color json="true">[0.6196079, 0.1529412, 0, 1, ]</color>
+<maxScale>3</maxScale>
+<falloff>0</falloff>
+<blinkRate>0</blinkRate>
+<position json="true">[-47.27426, 7.843583, 25.94008, ]</position>
+<minScale>3</minScale>
+<blinkPhase>0.1</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<color json="true">[0.6196079, 0.1529412, 0, 1, ]</color>
+<maxScale>3</maxScale>
+<falloff>0</falloff>
+<blinkRate>0</blinkRate>
+<position json="true">[49.55, 7.8436, 25.9401, ]</position>
+<minScale>3</minScale>
+<blinkPhase>0.1</blinkPhase>
+</element>
+<element type="EveSpriteSetItem">
+<color json="true">[0.6196079, 0.1529412, 0, 1, ]</color>
+<maxScale>3</maxScale>
+<falloff>0</falloff>
+<blinkRate>0</blinkRate>
+<position json="true">[47.2743, 7.8436, 25.9401, ]</position>
+<minScale>3</minScale>
+<blinkPhase>0.1</blinkPhase>
+</element>
+</sprites>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/ship/flashinglights.fx</effectFilePath>
+<parameters type="dict">
+<DiffuseMap type="Tw2TextureParameter">
+<name>DiffuseMap</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</DiffuseMap>
+</parameters>
+</effect>
+</element>
+</spriteSets>
+<decals list="true">
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[5.868225, 12.21633, 12.21633, ]</scaling>
+<decalIndex>0</decalIndex>
+<name>Logo_CaldariLogo_Left</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.5686275, 0.5686275, 0.5686275, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_caldarilogo_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[211.484, 61.62913, -3.513752, ]</position>
+<rotation json="true">[-0.56926, 0.416231, 0.4215248, -0.5701284, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[3.23936, 6.743621, 6.743621, ]</scaling>
+<decalIndex>1</decalIndex>
+<name>Logo_CaldariLogo_Right</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.5686275, 0.5686275, 0.5686275, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_caldarilogo_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[-132.7547, 36.59775, -104.1655, ]</position>
+<rotation json="true">[-0.654336, 0.26592, 0.2712664, -0.6538973, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[3.008986, 6.264035, 6.264035, ]</scaling>
+<decalIndex>2</decalIndex>
+<name>ChevronC_Left</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.07450981, 0.07843138, 0.08627451, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+<value json="true">[0.4078431, 0.4509804, 0.5137255, 1, ]</value>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_chevronc_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[156.8293, 17.18926, 97.67953, ]</position>
+<rotation json="true">[0.2942054, -0.6445159, 0.6412899, -0.2946741, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[4.797768, 9.987877, 9.987877, ]</scaling>
+<decalIndex>3</decalIndex>
+<name>ChevronC_Right</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.07450981, 0.07843138, 0.08627451, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+<value json="true">[0.4078431, 0.4509804, 0.5137255, 1, ]</value>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_chevronc_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[-251.4598, 100.4798, 40.11533, ]</position>
+<rotation json="true">[0.4051885, -0.580698, 0.5776094, -0.4062321, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[8.650562, 18.00853, 9.588478, ]</scaling>
+<decalIndex>4</decalIndex>
+<name>I5-I3N15_Left</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.07450981, 0.07843138, 0.08627451, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+<value json="true">[0.4078431, 0.4509804, 0.5137255, 1, ]</value>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_i5-i3n15_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[96.66023, 48.38826, 93.10539, ]</position>
+<rotation json="true">[0.4974938, -0.503177, 0.5003108, -0.499047, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[4.211042, 8.766446, 4.701016, ]</scaling>
+<decalIndex>5</decalIndex>
+<name>LightDetail01_Left</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalglowv3.fx</effectFilePath>
+<parameters type="dict">
+<DecalTextureScaling type="Tw2Vector4Parameter">
+<name>DecalTextureScaling</name>
+<value json="true">[0, 0, 0, 0, ]</value>
+</DecalTextureScaling>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_lightdetail01_d.png</resourcePath>
+</DecalDiffuseMap>
+<GlowColor type="Tw2Vector4Parameter">
+<name>GlowColor</name>
+<value json="true">[1.307189, 0.3332051, 0, 1, ]</value>
+</GlowColor>
+</parameters>
+</decalEffect>
+<position json="true">[78.57022, 21.45764, -155.2997, ]</position>
+<rotation json="true">[0.07958689, -0.737112, 0.6690179, -0.05285508, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[4.211042, 8.766446, 4.701016, ]</scaling>
+<decalIndex>6</decalIndex>
+<name>LightDetail01_Right</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalglowv3.fx</effectFilePath>
+<parameters type="dict">
+<DecalTextureScaling type="Tw2Vector4Parameter">
+<name>DecalTextureScaling</name>
+<value json="true">[0, 0, 0, 0, ]</value>
+</DecalTextureScaling>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_lightdetail01_d.png</resourcePath>
+</DecalDiffuseMap>
+<GlowColor type="Tw2Vector4Parameter">
+<name>GlowColor</name>
+<value json="true">[1.307189, 0.3332051, 0, 1, ]</value>
+</GlowColor>
+</parameters>
+</decalEffect>
+<position json="true">[-78.5702, 21.4576, -155.2997, ]</position>
+<rotation json="true">[-0.186183, -0.7005967, 0.68428, -0.0794844, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[6.295801, 13.10645, 6.560356, ]</scaling>
+<decalIndex>7</decalIndex>
+<name>ChevronStripe_Left</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.7450981, 0.4823529, 0.172549, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+<value json="true">[0.6666667, 0.5803922, 0.5803922, 1, ]</value>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_chevronstripe_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[75.57035, 55.18796, 34.05099, ]</position>
+<rotation json="true">[-0.7109157, 0.6840917, 0.1179378, 0.1129029, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[6.295801, 13.10645, 6.560356, ]</scaling>
+<decalIndex>8</decalIndex>
+<name>ChevronStripe_Right</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.7450981, 0.4823529, 0.172549, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+<value json="true">[0.6666667, 0.5803922, 0.5803922, 1, ]</value>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_chevronstripe_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[-75.21175, 55.18796, 34.05099, ]</position>
+<rotation json="true">[-0.6885922, -0.7065601, -0.1121521, 0.1186523, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[4.345513, 9.046384, 4.528115, ]</scaling>
+<decalIndex>9</decalIndex>
+<name>ChevronStripe_LeftRear</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.7450981, 0.4823529, 0.172549, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+<value json="true">[0.6666667, 0.5803922, 0.5803922, 1, ]</value>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_chevronstripe_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[95.22787, 18.07903, -193.6244, ]</position>
+<rotation json="true">[0.01619297, -0.005667987, 0.907544, -0.4196635, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+<element type="EveSpaceObjectDecal">
+<scaling json="true">[4.345513, 9.046384, 4.528115, ]</scaling>
+<decalIndex>10</decalIndex>
+<name>ChevronStripe_RightRear</name>
+<decalEffect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/decals/v3/decalv3.fx</effectFilePath>
+<parameters type="dict">
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<DecalOsMap type="Tw2TextureParameter">
+<name>DecalOsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_shared_os.png</resourcePath>
+</DecalOsMap>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.7450981, 0.4823529, 0.172549, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+<value json="true">[0.6666667, 0.5803922, 0.5803922, 1, ]</value>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<DecalDiffuseMap type="Tw2TextureParameter">
+<name>DecalDiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/decal/decal_chevronstripe_d.png</resourcePath>
+</DecalDiffuseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</decalEffect>
+<position json="true">[-95.2279, 18.079, -193.6244, ]</position>
+<rotation json="true">[-0.01450271, -0.009165836, -0.8927305, -0.4503265, ]</rotation>
+<decalGeometryPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_decals.gr2</decalGeometryPath>
+</element>
+</decals>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1.gr2</geometryResPath>
+<opaqueAreas list="true">
+<element type="Tw2MeshArea">
+<name>hull</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/ship/v3/tripleglowv3.fx</effectFilePath>
+<name>hull</name>
+<parameters type="dict">
+<SubMaskSpecularFactors type="Tw2Vector4Parameter">
+<name>SubMaskSpecularFactors</name>
+<value json="true">[0.5024, 8, 0, 0, ]</value>
+</SubMaskSpecularFactors>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[1.2, 1.2, 1.2, 1, ]</value>
+</MaterialDiffuseColor>
+<MaskSpecularCurve type="Tw2Vector4Parameter">
+<name>MaskSpecularCurve</name>
+<value json="true">[60, 200, 0.4, 0, ]</value>
+</MaskSpecularCurve>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[0.156, 0.8, 0.75, 0.4, ]</value>
+</ReflectionFactors>
+<MaskReflectionFactors type="Tw2Vector4Parameter">
+<name>MaskReflectionFactors</name>
+<value json="true">[0.75, 1, 0.6, 0.4, ]</value>
+</MaskReflectionFactors>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<GlowColor type="Tw2Vector4Parameter">
+<name>GlowColor</name>
+<value json="true">[1.519608, 2.166667, 2.5, 1, ]</value>
+</GlowColor>
+<MaskDiffuseColor type="Tw2Vector4Parameter">
+<name>MaskDiffuseColor</name>
+<value json="true">[0.4470588, 0.4509804, 0.4588235, 1, ]</value>
+</MaskDiffuseColor>
+<MaskReflectionMap type="Tw2VariableParameter">
+<name>MaskReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</MaskReflectionMap>
+<PgsMap type="Tw2TextureParameter">
+<name>PgsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_pgs.png</resourcePath>
+</PgsMap>
+<SubMaskReflectionFactors type="Tw2Vector4Parameter">
+<name>SubMaskReflectionFactors</name>
+<value json="true">[1.05, 1, 0.5, 1, ]</value>
+</SubMaskReflectionFactors>
+<SubMaskReflectionColor type="Tw2Vector4Parameter">
+<name>SubMaskReflectionColor</name>
+<value json="true">[0.1372549, 0.2745098, 0.3294118, 1, ]</value>
+</SubMaskReflectionColor>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<MaskReflectionColor type="Tw2Vector4Parameter">
+<name>MaskReflectionColor</name>
+</MaskReflectionColor>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.6</value>
+</MaterialAmbientFactor>
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.156, 1, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 1, 0, 0, ]</value>
+</FresnelFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+</MaterialReflectionColor>
+<SubMaskDiffuseColor type="Tw2Vector4Parameter">
+<name>SubMaskDiffuseColor</name>
+<value json="true">[0.3568628, 0.3568628, 0.3568628, 1, ]</value>
+</SubMaskDiffuseColor>
+<DiffuseMap type="Tw2TextureParameter">
+<name>DiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_d.png</resourcePath>
+</DiffuseMap>
+<MaskSpecularFactors type="Tw2Vector4Parameter">
+<name>MaskSpecularFactors</name>
+<value json="true">[0.5024, 15, 0, 0, ]</value>
+</MaskSpecularFactors>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+<SubMaskSpecularCurve type="Tw2Vector4Parameter">
+<name>SubMaskSpecularCurve</name>
+<value json="true">[300, 10, 1.2, 0, ]</value>
+</SubMaskSpecularCurve>
+</parameters>
+</effect>
+</element>
+<element type="Tw2MeshArea">
+<index>1</index>
+<name>exhaust</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/ship/v3/singleheatv3.fx</effectFilePath>
+<name>hull</name>
+<parameters type="dict">
+<DiffuseMap type="Tw2TextureParameter">
+<name>DiffuseMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_d.png</resourcePath>
+</DiffuseMap>
+<MaterialSpecularFactors type="Tw2Vector4Parameter">
+<name>MaterialSpecularFactors</name>
+<value json="true">[0.5024, 8, 0, 0, ]</value>
+</MaterialSpecularFactors>
+<FresnelFactors type="Tw2Vector4Parameter">
+<name>FresnelFactors</name>
+<value json="true">[2, 0.6, 0, 0, ]</value>
+</FresnelFactors>
+<MaterialDiffuseColor type="Tw2Vector4Parameter">
+<name>MaterialDiffuseColor</name>
+<value json="true">[0.3568628, 0.3568628, 0.3568628, 1, ]</value>
+</MaterialDiffuseColor>
+<MaterialReflectionColor type="Tw2Vector4Parameter">
+<name>MaterialReflectionColor</name>
+<value json="true">[0.1333333, 0.2705882, 0.3294118, 1, ]</value>
+</MaterialReflectionColor>
+<ReflectionFactors type="Tw2Vector4Parameter">
+<name>ReflectionFactors</name>
+<value json="true">[1.05, 1, 0.5, 1, ]</value>
+</ReflectionFactors>
+<MaterialSpecularCurve type="Tw2Vector4Parameter">
+<name>MaterialSpecularCurve</name>
+<value json="true">[60.1796, 160, 0.4203, 0, ]</value>
+</MaterialSpecularCurve>
+<HeatGlowData type="Tw2Vector4Parameter">
+<name>HeatGlowData</name>
+<value json="true">[1, 0.025, 4, 0.002, ]</value>
+</HeatGlowData>
+<PgsMap type="Tw2TextureParameter">
+<name>PgsMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_pgs.png</resourcePath>
+</PgsMap>
+<ReflectionMapTransform type="Tw2VariableParameter">
+<name>ReflectionMapTransform</name>
+<variableName>EnvMapTransform</variableName>
+</ReflectionMapTransform>
+<GlowColor type="Tw2Vector4Parameter">
+<name>GlowColor</name>
+<value json="true">[1.090196, 1.584314, 2, 1, ]</value>
+</GlowColor>
+<NormalMap type="Tw2TextureParameter">
+<name>NormalMap</name>
+<resourcePath>res:/dx9/model/ship/caldari/battleship/cb1/cb1_t1_n.png</resourcePath>
+</NormalMap>
+<HeatGlowNoiseMap type="Tw2TextureParameter">
+<name>HeatGlowNoiseMap</name>
+<resourcePath>res:/texture/global/noise.png</resourcePath>
+</HeatGlowNoiseMap>
+<MaterialAmbientFactor type="Tw2FloatParameter">
+<name>MaterialAmbientFactor</name>
+<value>0.65</value>
+</MaterialAmbientFactor>
+<ReflectionMap type="Tw2VariableParameter">
+<name>ReflectionMap</name>
+<variableName>EnvMap2</variableName>
+</ReflectionMap>
+</parameters>
+</effect>
+</element>
+</opaqueAreas>
+</mesh>
+<boundingSphereCenter json="true">[-45.65892, 41.71634, 84.5871, ]</boundingSphereCenter>
+<locators list="true">
+<element type="EveLocator">
+<name>locator_booster_1a</name>
+<transform json="true">[2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, -397.6426, 133.3339, -55.22371, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_booster_1b</name>
+<transform json="true">[2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, 320.6518, 84.83788, -31.40588, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_booster_2</name>
+<transform json="true">[10, 0, 0, 0, 0, 10, 0, 0, 0, 0, 4, 0, 0.029284, -25.89777, -258.7419, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_booster_3a</name>
+<transform json="true">[7, 0, 0, 0, 0, 7, 0, 0, 0, 0, 2.5, 0, -80.34987, -3.62115, -277.8147, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_booster_3b</name>
+<transform json="true">[7, 0, 0, 0, 0, 7, 0, 0, 0, 0, 2.5, 0, 80.6489, -3.586225, -277.718, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_booster_4a</name>
+<transform json="true">[5, 0, 0, 0, 0, 5, 0, 0, 0, 0, 2.5, 0, -78.79995, 9.439399, -279.3716, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_booster_4b</name>
+<transform json="true">[5, 0, 0, 0, 0, 5, 0, 0, 0, 0, 2.5, 0, 78.7999, 9.4394, -279.3716, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_booster_5</name>
+<transform json="true">[2, 0, 0, 0, 0, 2, 0, 0, 0, 0, 1, 0, -339.3452, -29.23376, -48.00721, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_1a</name>
+<transform json="true">[0.9824075, -0.1867492, 0, 0, 0.1867492, 0.9824075, 0, 0, 0, 0, 1, 0, 319.3301, 90.6673, 64.89143, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_1b</name>
+<transform json="true">[-0.9743257, 0.2251431, 0, 0, -0.2251431, -0.9743257, 0, 0, 0, 0, 1, 0, -397.8412, 127.0074, 40.60086, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_2a</name>
+<transform json="true">[0.9824076, 0.1867492, 0, 0, -0.1867492, 0.9824076, 0, 0, 0, 0, 1, 0, -397.7229, 139.8071, 40.66553, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_2b</name>
+<transform json="true">[-0.9743254, -0.225143, 0, 0, 0.225143, -0.9743254, 0, 0, 0, 0, 1, 0, 319.3301, 77.40954, 64.89143, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_3a</name>
+<transform json="true">[0.9824075, -0.1867492, 0, 0, 0.1867492, 0.9824075, 0, 0, 0, 0, 1, 0, 319.3301, 90.6673, 41.82316, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_3b</name>
+<transform json="true">[-0.9743257, 0.2251431, 0, 0, -0.2251431, -0.9743257, 0, 0, 0, 0, 1, 0, -397.8412, 127.0074, 17.90656, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_4a</name>
+<transform json="true">[0.9824076, 0.1867492, 0, 0, -0.1867492, 0.9824076, 0, 0, 0, 0, 1, 0, -397.7229, 139.8071, 17.59726, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_4b</name>
+<transform json="true">[-0.9743254, -0.225143, 0, 0, 0.225143, -0.9743254, 0, 0, 0, 0, 1, 0, 319.3301, 77.40954, 42.19714, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_5a</name>
+<transform json="true">[0.9824075, -0.1867492, 0, 0, 0.1867492, 0.9824075, 0, 0, 0, 0, 1, 0, 319.3301, 90.6673, 18.69673, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_5b</name>
+<transform json="true">[-0.9743257, 0.2251431, 0, 0, -0.2251431, -0.9743257, 0, 0, 0, 0, 1, 0, -397.8412, 127.0074, -5.818525, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_6a</name>
+<transform json="true">[0.9824076, 0.1867492, 0, 0, -0.1867492, 0.9824076, 0, 0, 0, 0, 1, 0, -397.7229, 139.8071, -5.529158, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_6b</name>
+<transform json="true">[-0.9743254, -0.225143, 0, 0, 0.225143, -0.9743254, 0, 0, 0, 0, 1, 0, 319.3301, 77.40954, 18.47203, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_7a</name>
+<transform json="true">[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 81.81471, 51.99764, 67.77529, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_7b</name>
+<transform json="true">[-1, -8.742278e-08, 0, 0, 8.742278e-08, -1, 0, 0, 0, 0, 1, 0, 55.91666, -57.15562, -61.62743, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_8a</name>
+<transform json="true">[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -81.81471, 51.99764, 67.77529, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_turret_8b</name>
+<transform json="true">[-1, -8.742278e-08, 0, 0, 8.742278e-08, -1, 0, 0, 0, 0, 1, 0, -53.81007, -57.15562, -61.62743, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_launcher_1a</name>
+<transform json="true">[1, 0, 0, 0, 0, 0.9999053, 0.01375884, 0, 0, -0.01375884, 0.9999053, 0, 49.00801, 52.33753, -97.60985, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_launcher_2a</name>
+<transform json="true">[1, 0, 0, 0, 0, 0.9999053, 0.01375884, 0, 0, -0.01375884, 0.9999053, 0, -54.08046, 52.33753, -96.23965, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_launcher_3a</name>
+<transform json="true">[-0.8663654, -0.4994122, 0, 0, 0.4994122, -0.8663654, 0, 0, 0, 0, 1, 0, 76.22205, -53.83477, -20.30949, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_launcher_4a</name>
+<transform json="true">[-0.8990654, 0.4378356, 0, 0, -0.4378356, -0.8990654, 0, 0, 0, 0, 1, 0, -76.22205, -52.18337, -20.30949, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_launcher_5a</name>
+<transform json="true">[-0.8663654, -0.4994122, 0, 0, 0.4994122, -0.8663654, 0, 0, 0, 0, 1, 0, 76.22205, -53.83477, 3.707237, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_launcher_6a</name>
+<transform json="true">[-0.8990654, 0.4378356, 0, 0, -0.4378356, -0.8990654, 0, 0, 0, 0, 1, 0, -76.22205, -52.18337, 3.707237, 1, ]</transform>
+</element>
+<element type="EveLocator">
+<name>locator_audio_booster</name>
+<transform json="true">[1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -52.00097, 21.83896, -188.4568, 0.125, ]</transform>
+</element>
+</locators>
+<children list="true">
+<element type="EveTransform">
+<scaling json="true">[0.6, 0.6, 0.6, ]</scaling>
+<rotation json="true">[0.9482729, 0, 0, -0.3174421, ]</rotation>
+<name>Spotlight_Right</name>
+<translation json="true">[-11.0179, 34.8231, 31.2874, ]</translation>
+<children list="true">
+<element type="EveTransform">
+<rotation json="true">[0.8910065, 0, 0, -0.4539905, ]</rotation>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 1.5, 0, ]</translation>
+<rotation json="true">[0.7071068, 0, 0, 0.7071068, ]</rotation>
+<name>Glowparent</name>
+<children list="true">
+<element type="EveTransform">
+<scaling json="true">[80, 6, 80, ]</scaling>
+<modifier>102</modifier>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 0, 0.1, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/global/zsprite.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>Bluesprite Area</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe30.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.1686275, 0.2156863, 0.2392157, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>actualSprite</name>
+</element>
+</children>
+<name>glow</name>
+</element>
+<element type="EveTransform">
+<scaling json="true">[40, 40, 40, ]</scaling>
+<modifier>102</modifier>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 0, 0.1, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/global/zsprite.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>Bluesprite Area</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe63.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.1647059, 0.227451, 0.254902, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>actualSprite</name>
+</element>
+</children>
+<name>glow</name>
+</element>
+</children>
+</element>
+<element type="EveTransform">
+<scaling json="true">[0.7, 2, 0.7, ]</scaling>
+<translation json="true">[0, -2, 0, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/station/caldari/xtras/locator_spotlight_01shape.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>lightconeArea</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe31.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/global/spotramp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/global/anisoramp_cube.cube</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.05490196, 0.0627451, 0.0627451, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>locator_spotlight_01</name>
+</element>
+</children>
+<name>SpotParent</name>
+</element>
+</children>
+</element>
+<element type="EveTransform">
+<scaling json="true">[0.6, 0.6, 0.6, ]</scaling>
+<rotation json="true">[0.9482729, 0, 0, -0.3174421, ]</rotation>
+<name>Spotlight_Left</name>
+<translation json="true">[11.0179, 34.82308, 31.28739, ]</translation>
+<children list="true">
+<element type="EveTransform">
+<rotation json="true">[0.8910065, 0, 0, -0.4539905, ]</rotation>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 1.5, 0, ]</translation>
+<rotation json="true">[0.7071068, 0, 0, 0.7071068, ]</rotation>
+<name>Glowparent</name>
+<children list="true">
+<element type="EveTransform">
+<scaling json="true">[80, 6, 80, ]</scaling>
+<modifier>102</modifier>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 0, 0.1, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/global/zsprite.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>Bluesprite Area</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe30.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.1686275, 0.2156863, 0.2392157, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>actualSprite</name>
+</element>
+</children>
+<name>glow</name>
+</element>
+<element type="EveTransform">
+<scaling json="true">[40, 40, 40, ]</scaling>
+<modifier>102</modifier>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 0, 0.1, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/global/zsprite.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>Bluesprite Area</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe63.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.1647059, 0.227451, 0.254902, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>actualSprite</name>
+</element>
+</children>
+<name>glow</name>
+</element>
+</children>
+</element>
+<element type="EveTransform">
+<scaling json="true">[0.7, 2, 0.7, ]</scaling>
+<translation json="true">[0, -2, 0, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/station/caldari/xtras/locator_spotlight_01shape.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>lightconeArea</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe31.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/global/spotramp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/global/anisoramp_cube.cube</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.05490196, 0.0627451, 0.0627451, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>locator_spotlight_01</name>
+</element>
+</children>
+<name>SpotParent</name>
+</element>
+</children>
+</element>
+<element type="EveTransform">
+<translation json="true">[250.5722, 64.0836, 62.06971, ]</translation>
+<rotation json="true">[0.9482729, 0, 0, -0.3174421, ]</rotation>
+<name>Spotlight_LeftWing</name>
+<children list="true">
+<element type="EveTransform">
+<rotation json="true">[0.8910065, 0, 0, -0.4539905, ]</rotation>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 1.5, 0, ]</translation>
+<rotation json="true">[0.7071068, 0, 0, 0.7071068, ]</rotation>
+<name>Glowparent</name>
+<children list="true">
+<element type="EveTransform">
+<scaling json="true">[80, 6, 80, ]</scaling>
+<modifier>102</modifier>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 0, 0.1, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/global/zsprite.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>Bluesprite Area</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe30.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.1686275, 0.2156863, 0.2392157, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>actualSprite</name>
+</element>
+</children>
+<name>glow</name>
+</element>
+<element type="EveTransform">
+<scaling json="true">[40, 40, 40, ]</scaling>
+<modifier>102</modifier>
+<children list="true">
+<element type="EveTransform">
+<translation json="true">[0, 0, 0.1, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/global/zsprite.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>Bluesprite Area</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe63.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/particle/whitesharp.png</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.1647059, 0.227451, 0.254902, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>actualSprite</name>
+</element>
+</children>
+<name>glow</name>
+</element>
+</children>
+</element>
+<element type="EveTransform">
+<scaling json="true">[0.7, 2, 0.7, ]</scaling>
+<translation json="true">[0, -2, 0, ]</translation>
+<mesh type="Tw2Mesh">
+<geometryResPath>res:/model/station/caldari/xtras/locator_spotlight_01shape.gr2</geometryResPath>
+<additiveAreas list="true">
+<element type="Tw2MeshArea">
+<name>lightconeArea</name>
+<effect type="Tw2Effect">
+<effectFilePath>res:/graphics/effect/managed/space/fixedfunctionemulation/ffe31.fx</effectFilePath>
+<parameters type="dict">
+<Texture1_0 type="Tw2TextureParameter">
+<name>Texture1_0</name>
+<resourcePath>res:/texture/global/spotramp.png</resourcePath>
+</Texture1_0>
+<Texture2_0Transform type="Tw2TransformParameter">
+<name>Texture2_0Transform</name>
+</Texture2_0Transform>
+<Texture2_0 type="Tw2TextureParameter">
+<name>Texture2_0</name>
+<resourcePath>res:/texture/global/anisoramp_cube.cube</resourcePath>
+</Texture2_0>
+<Texture1_0Transform type="Tw2TransformParameter">
+<name>Texture1_0Transform</name>
+</Texture1_0Transform>
+<Color1_0 type="Tw2Vector4Parameter">
+<name>Color1_0</name>
+<value json="true">[0.05490196, 0.0627451, 0.0627451, 1, ]</value>
+</Color1_0>
+</parameters>
+</effect>
+</element>
+</additiveAreas>
+</mesh>
+<name>locator_spotlight_01</name>
+</element>
+</children>
+<name>SpotParent</name>
+</element>
+</children>
+</element>
+</children>
+<boundingSphereRadius>403.138</boundingSphereRadius>
+</root>
