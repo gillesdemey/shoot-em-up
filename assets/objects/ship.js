@@ -13,8 +13,8 @@ Game.models.Ship = function(width, height, depth) {
   this.roll = 0.4; //roll of the space ship in radians
   this.pitch = 0.2;// ship's pitch when moving forward or back
   this.agility = 0.15; //ship agility, essentially speed; higher = faster
-  this.weapon = new Game.weapons.Lasers(); //ship current weapon, give it basic weapon at start
-  this.numberOfWeapons = 1;
+  this.weapon = new Game.weapons.Lasers(); //ship current weapon
+  this.numberOfWeapons = 1; //number of weapons on board
 
   /* Private properties with default values */
   width   = typeof width  === 'undefined' ? 0.6 : width;

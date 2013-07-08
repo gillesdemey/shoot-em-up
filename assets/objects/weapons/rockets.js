@@ -7,7 +7,7 @@ Game.weapons.Rockets = function() {
   this.name = "Rockets";
   this.mode = "automatic";
   this.bulletType = "rocket";
-  this.velocity = 0.1;
+  this.velocity = 0.2; // higher is faster, best not below 0.2
   this.firerate = 0.5;
 
   this.bullet = {

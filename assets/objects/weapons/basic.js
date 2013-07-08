@@ -17,17 +17,21 @@ Game.Weapon.prototype.fire = function() {
   switch ( ship.numberOfWeapons ) {
     case 1:
       bullets[1] = new THREE.Mesh( weapon.bullet.geometry, weapon.bullet.material );
-      bullets[1].position = { x: (Game.ship.position.x + Game.ship.geometry.boundingSphere.radius / 10), y: Game.ship.position.y, z: Game.ship.position.z };
+      bullets[1].position = { x: (Game.ship.position.x + Game.ship.geometry.boundingSphere.radius / 15), y: Game.ship.position.y, z: Game.ship.position.z };
       break;
     case 2:
       bullets[1] = new THREE.Mesh( weapon.bullet.geometry, weapon.bullet.material );
       bullets[2] = new THREE.Mesh( weapon.bullet.geometry, weapon.bullet.material );
-      bullets[1].position = { x: (Game.ship.position.x + Game.ship.geometry.boundingSphere.radius / 10), y: Game.ship.position.y, z: Game.ship.position.z };
-      bullets[2].position = { x: (Game.ship.position.x + Game.ship.geometry.boundingSphere.radius / 10), y: Game.ship.position.y, z: Game.ship.position.z };
+      bullets[1].position = { x: (Game.ship.position.x - Game.ship.geometry.boundingSphere.radius / 15), y: Game.ship.position.y, z: Game.ship.position.z - Game.ship.geometry.boundingSphere.radius / 25 };
+      bullets[2].position = { x: (Game.ship.position.x - Game.ship.geometry.boundingSphere.radius / 15), y: Game.ship.position.y, z: Game.ship.position.z + Game.ship.geometry.boundingSphere.radius / 25 };
       break;
     case 3:
+      bullets[1] = new THREE.Mesh( weapon.bullet.geometry, weapon.bullet.material );
+      bullets[2] = new THREE.Mesh( weapon.bullet.geometry, weapon.bullet.material );
       bullets[3] = new THREE.Mesh( weapon.bullet.geometry, weapon.bullet.material );
-      bullets[3].position = { x: (Game.ship.position.x + Game.ship.geometry.boundingSphere.radius / 10), y: Game.ship.position.y, z: Game.ship.position.z };
+      bullets[1].position = { x: (Game.ship.position.x - Game.ship.geometry.boundingSphere.radius / 15), y: Game.ship.position.y, z: Game.ship.position.z - Game.ship.geometry.boundingSphere.radius / 25 };
+      bullets[2].position = { x: (Game.ship.position.x - Game.ship.geometry.boundingSphere.radius / 15), y: Game.ship.position.y, z: Game.ship.position.z + Game.ship.geometry.boundingSphere.radius / 25 };
+      bullets[3].position = { x: (Game.ship.position.x + Game.ship.geometry.boundingSphere.radius / 15), y: Game.ship.position.y, z: Game.ship.position.z };
       break;
     default:
       break;
