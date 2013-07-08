@@ -17,7 +17,7 @@ Game.models.Space = function(width, height) {
   texture.wrapS = THREE.RepeatWrapping;
   texture.wrapT = THREE.RepeatWrapping;
 
-  texture.repeat.set( 300, 300 );
+  texture.repeat.set( 500, 500 );
 
   /* Set the material */
   this.setMaterial(

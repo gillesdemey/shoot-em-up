@@ -24,10 +24,11 @@ Game.models.Ship = function(width, height, depth) {
   /* Load the model */
   var loader = new THREE.JSONLoader();
 
-  loader.load( "assets/models/cruiser/cruiser.js", function( geometry ) {
+  loader.load( "assets/models/cruiser/cruiser.js", function( geometry, mat ) {
 
     /* set geometry and material */
     ship.setGeometry( geometry );
+    //ship.setMaterial( new THREE.MeshFaceMaterial( mat ) );
     ship.setMaterial( new THREE.MeshNormalMaterial() );
 
     ship.name = "cruiser";

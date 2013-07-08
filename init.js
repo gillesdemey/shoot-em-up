@@ -54,11 +54,11 @@ Game.scene = new THREE.Scene();
 Game.camera.lookAt(Game.scene.position);
 
 /* Helpers and debug stuff */
-Game.grid = new THREE.GridHelper( 500, 0.5 );
-Game.scene.add(Game.grid);
+// Game.grid = new THREE.GridHelper( 500, 0.5 );
+// Game.scene.add(Game.grid);
 
-Game.selectionAxis = new THREE.AxisHelper( 100 );
-Game.scene.add(Game.selectionAxis);
+// Game.selectionAxis = new THREE.AxisHelper( 100 );
+// Game.scene.add(Game.selectionAxis);
 
 /* Attach the render-supplied DOM element */
 CONTAINER.appendChild( Game.renderer.domElement );
@@ -105,5 +105,5 @@ function render() {
   stats.update();
 }
 /* enable debugging */
-THREE.utils.enableDebug(Game.scene);
+//THREE.utils.enableDebug(Game.scene);
 render();
