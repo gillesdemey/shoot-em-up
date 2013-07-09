@@ -10,17 +10,17 @@ Game.models.Ship = function(width, height, depth) {
 
   var ship = this;
 
-  this.roll = 0.4; //roll of the space ship in radians
+  this.roll = 0.5; //roll of the space ship in radians
   this.pitch = 0.2;// ship's pitch when moving forward or back
   this.agility = 0.15; //ship agility, essentially speed; higher = faster
   this.weapon = new Game.weapons.Lasers(); //ship current weapon
   this.numberOfWeapons = 1; //number of weapons on board
 
-  this.bounds = new Array() // boundries for the ship to navigate in
-  this.bounds['left']    = -5,
-  this.bounds['right']   = 5,
-  this.bounds['forward'] = -1.3,
-  this.bounds['back']    = -4 
+  this.bounds = []; // boundries for the ship to navigate in
+  this.bounds['left']    =  -5;
+  this.bounds['right']   =   5;
+  this.bounds['forward'] =  -1.3;
+  this.bounds['back']    =  -4;
 
   /* Private properties with default values */
   width   = typeof width  === 'undefined' ? 0.6 : width;
@@ -87,9 +87,8 @@ Game.models.Ship.prototype.left = function() {
 
     if ( ( this.position.z - this.agility ) >= this.bounds['left'] ) {
       this.position.z -= this.agility;
-    }
-    else {
-      this.position.z = this.bounds['left']
+    } else {
+      this.position.z = this.bounds['left'];
     }
   }
 
@@ -108,9 +107,8 @@ Game.models.Ship.prototype.right = function() {
 
     if ( ( this.position.z + this.agility ) <= this.bounds['right'] ) {
       this.position.z += this.agility;
-    }
-    else {
-      this.position.z = this.bounds['right']
+    } else {
+      this.position.z = this.bounds['right'];
     }
   }
 };
@@ -128,9 +126,8 @@ Game.models.Ship.prototype.forward = function() {
 
     if ( ( this.position.x + this.agility ) <= this.bounds['forward'] ) {
       this.position.x += this.agility;
-    }
-    else {
-      this.position.x = this.bounds['forward']
+    } else {
+      this.position.x = this.bounds['forward'];
     }
   }
 
@@ -142,10 +139,8 @@ Game.models.Ship.prototype.back = function() {
   if ( this.position.x >= this.bounds['back'] ) {
     if ( ( this.position.x - this.agility ) >= this.bounds['back'] ) {
       this.position.x -= this.agility;
-    }
-    else
-    {
-      this.position.x = this.bounds['back']
+    } else {
+      this.position.x = this.bounds['back'];
     }
   }
 
@@ -162,11 +157,23 @@ Game.models.Ship.prototype.level = function() {
 };
 
 /* Do a barrel roll! */
-Game.models.Ship.prototype.barrelRoll = function() {
+Game.models.Ship.prototype.barrelRollLeft = function() {
+
+  var rotTarget = { x: - Math.PI * 2 };
+
+  rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 300 )
+  .onComplete( function() { Game.ship.rotation.x = 0; } )
+  .start();
+
+};
+
+/* Do a barrel roll! */
+Game.models.Ship.prototype.barrelRollRight = function() {
 
   var rotTarget = { x: Math.PI * 2 };
 
-  rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 500 )
+  rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 300 )
+  .onComplete( function() { Game.ship.rotation.x = 0; } )
   .start();
 
 };

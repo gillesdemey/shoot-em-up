@@ -14,10 +14,18 @@ function input() {
 
   /* check for keyboard input */
   if( Game.keyboard.pressed('left') ) {
-  Game.ship.left();
+    Game.ship.left();
+  }
+  if( Game.keyboard.pressed('alt+left') ) {
+    Game.ship.barrelRollLeft();
+    //Game.ship.left();
   }
   if( Game.keyboard.pressed('right') ) {
     Game.ship.right();
+  }
+  if( Game.keyboard.pressed('alt+right') ) {
+    Game.ship.barrelRollRight();
+    //Game.ship.right();
   }
   if( Game.keyboard.pressed('up') ) {
     Game.ship.forward();
