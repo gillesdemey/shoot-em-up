@@ -42,16 +42,16 @@ Game.camera = new THREE.PerspectiveCamera(
 /* Camera position */
 Game.camera.position.z = 0;
 Game.camera.position.y = 12;
-Game.camera.position.x = -2;
+Game.camera.position.x = -0.000001;
 
 /* Camera rotation */
-//camera.rotation.x = -45 * Math.PI / 180;
+//Game.camera.rotation.x = 0;
 
 /* Scene & Camera attaching */
 Game.scene = new THREE.Scene();
 
 /* Target camera */
-Game.camera.lookAt(Game.scene.position);
+ Game.camera.lookAt(Game.scene.position);
 
 /* Helpers and debug stuff */
 // Game.grid = new THREE.GridHelper( 500, 0.5 );
