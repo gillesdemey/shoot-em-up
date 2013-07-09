@@ -16,6 +16,12 @@ Game.models.Ship = function(width, height, depth) {
   this.weapon = new Game.weapons.Lasers(); //ship current weapon
   this.numberOfWeapons = 1; //number of weapons on board
 
+  this.bounds = new Array() // boundries for the ship to navigate in
+  this.bounds['left']    = -5,
+  this.bounds['right']   = 5,
+  this.bounds['forward'] = -1.3,
+  this.bounds['back']    = -4 
+
   /* Private properties with default values */
   width   = typeof width  === 'undefined' ? 0.6 : width;
   height  = typeof height === 'undefined' ? 0.6 : height;
@@ -71,7 +77,7 @@ Game.models.Ship.prototype.fire = function() {
 /* Go left function */
 Game.models.Ship.prototype.left = function() {
 
-  if ( this.position.z >= -5 ) {
+  if ( this.position.z >= this.bounds['left'] ) {
 
     var rotTarget = { x: -this.roll };
 
@@ -79,7 +85,12 @@ Game.models.Ship.prototype.left = function() {
     .easing(TWEEN.Easing.Exponential.Out)
     .start();
 
-    Game.ship.position.z -= this.agility;
+    if ( ( this.position.z - this.agility ) >= this.bounds['left'] ) {
+      this.position.z -= this.agility;
+    }
+    else {
+      this.position.z = this.bounds['left']
+    }
   }
 
 };
@@ -87,7 +98,7 @@ Game.models.Ship.prototype.left = function() {
 /* Go right function */
 Game.models.Ship.prototype.right = function() {
 
-  if ( this.position.z <= 5 ) {
+  if ( this.position.z <= this.bounds['right'] ) {
 
     var rotTarget = { x: this.roll };
 
@@ -95,23 +106,32 @@ Game.models.Ship.prototype.right = function() {
     .easing(TWEEN.Easing.Exponential.Out)
     .start();
 
-    Game.ship.position.z += this.agility;
+    if ( ( this.position.z + this.agility ) <= this.bounds['right'] ) {
+      this.position.z += this.agility;
+    }
+    else {
+      this.position.z = this.bounds['right']
+    }
   }
-
 };
 
 /* Go forward */
 Game.models.Ship.prototype.forward = function() {
 
-  if ( this.position.x <= -1.3 ) {
+  if ( this.position.x <= this.bounds['forward'] ) {
 
     var rotTarget = { z: -this.pitch };
 
-    rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 200 )
+    rotationTween = new TWEEN.Tween( this.rotation ).to(rotTarget, 200 )
     .easing(TWEEN.Easing.Exponential.Out)
     .start();
 
-    Game.ship.position.x += this.agility;
+    if ( ( this.position.x + this.agility ) <= this.bounds['forward'] ) {
+      this.position.x += this.agility;
+    }
+    else {
+      this.position.x = this.bounds['forward']
+    }
   }
 
 };
@@ -119,8 +139,14 @@ Game.models.Ship.prototype.forward = function() {
 /* Go backwards */
 Game.models.Ship.prototype.back = function() {
 
-  if ( this.position.x >= -4 ) {
-    Game.ship.position.x -= this.agility;
+  if ( this.position.x >= this.bounds['back'] ) {
+    if ( ( this.position.x - this.agility ) >= this.bounds['back'] ) {
+      this.position.x -= this.agility;
+    }
+    else
+    {
+      this.position.x = this.bounds['back']
+    }
   }
 
 };
