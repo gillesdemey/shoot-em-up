@@ -28,7 +28,7 @@ Game.models.Ship = function(width, height, depth) {
 
     /* set geometry and material */
     ship.setGeometry( geometry );
-    //ship.setMaterial( new THREE.MeshFaceMaterial( mat ) );
+    //ship.setMaterial( new THREE.MeshLambertMaterial( mat ) );
     ship.setMaterial( new THREE.MeshNormalMaterial() );
 
     ship.name = "cruiser";
@@ -55,11 +55,9 @@ var positionTween = new TWEEN.Tween();
 /* Jump function for ship model */
 Game.models.Ship.prototype.jump = function() {
 
-  var pos = Game.ship.position;
   var posTarget = { y: 3 };
 
-  positionTween = new TWEEN.Tween( pos ).to( posTarget, 300 )
-  .onUpdate(function() { Game.ship.position = pos; })
+  positionTween = new TWEEN.Tween( Game.ship.position ).to( posTarget, 300 )
   .easing(TWEEN.Easing.Exponential.InOut)
   .start();
 
@@ -74,11 +72,10 @@ Game.models.Ship.prototype.fire = function() {
 Game.models.Ship.prototype.left = function() {
 
   if ( this.position.z >= -5 ) {
-    var rot = Game.ship.rotation;
+
     var rotTarget = { x: -this.roll };
 
-    rotationTween = new TWEEN.Tween( rot ).to(rotTarget, 200 )
-    .onUpdate(function() { Game.ship.rotation = rot; })
+    rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 200 )
     .easing(TWEEN.Easing.Exponential.Out)
     .start();
 
@@ -91,11 +88,10 @@ Game.models.Ship.prototype.left = function() {
 Game.models.Ship.prototype.right = function() {
 
   if ( this.position.z <= 5 ) {
-    var rot = Game.ship.rotation;
+
     var rotTarget = { x: this.roll };
 
-    rotationTween = new TWEEN.Tween( rot ).to(rotTarget, 200 )
-    .onUpdate(function() { Game.ship.rotation = rot; })
+    rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 200 )
     .easing(TWEEN.Easing.Exponential.Out)
     .start();
 
@@ -108,11 +104,10 @@ Game.models.Ship.prototype.right = function() {
 Game.models.Ship.prototype.forward = function() {
 
   if ( this.position.x <= -1.3 ) {
-    var rot = Game.ship.rotation;
+
     var rotTarget = { z: -this.pitch };
 
-    rotationTween = new TWEEN.Tween( rot ).to(rotTarget, 200 )
-    .onUpdate(function() { Game.ship.rotation = rot; })
+    rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 200 )
     .easing(TWEEN.Easing.Exponential.Out)
     .start();
 
@@ -133,11 +128,19 @@ Game.models.Ship.prototype.back = function() {
 /* Level the ship back to rotation 0 */
 Game.models.Ship.prototype.level = function() {
 
-  var rot = Game.ship.rotation;
   var rotTarget = { x: 0, y: 0, z: 0 };
 
-  rotationTween = new TWEEN.Tween( rot ).to(rotTarget, 200 )
-  .onUpdate(function(){ Game.ship.rotation = rot; })
+  rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 200 )
+  .start();
+
+};
+
+/* Do a barrel roll! */
+Game.models.Ship.prototype.barrelRoll = function() {
+
+  var rotTarget = { x: Math.PI * 2 };
+
+  rotationTween = new TWEEN.Tween( Game.ship.rotation ).to(rotTarget, 500 )
   .start();
 
 };

@@ -80,24 +80,24 @@ Game.scene.add( Game.camera );
 
 /* Add some lights */
 
+//subtle ambient lights
+var ambientLight = new THREE.AmbientLight(0xbbbbbb);
+Game.scene.add(ambientLight);
+
 // create a point light
-Game.pointLight =
-  new THREE.PointLight(0xFFFFFF);
+//Game.pointLight = new THREE.PointLight(0xFFFFFF);
 
 /* Target the lights */
-Game.pointLight.lookAt(Game.ship.position);
+//Game.pointLight.lookAt(Game.ship.position);
 
 // add to the scene
-Game.scene.add(Game.pointLight);
+//Game.scene.add(Game.pointLight);
 
 /* Render loop */
 function render() {
   requestAnimationFrame(render);
 
   //Game.ship.position.x -= 0.2;
-
-  /* Target the lights */
-  Game.pointLight.lookAt(Game.ship.position);
 
   Game.renderer.render(Game.scene, Game.camera);
 
